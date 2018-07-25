@@ -7,13 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 for i in (1..20)
-  User.create(name: "User{i}", email: "mail#{i}@gmail.com"
+  User.create(name: "User#{i}", email: "mail#{i}@gmail.com")
 end
 
 for i in (1..50)
-  Pin.create(url: "https://{i}", user_id: rand(20))
+  Pin.create(url: "https://#{i}", user_id: rand(20))
 end
 
 for i in (1..10)
-  Comment.create(content: "BlablaOnSenFout{i}", user_id: rand(20), pin_id: rand(50))
+  Comment.create(content: "BlablaOnSenFout#{i}", user_id: rand(20), pin_id: rand(50))
 end
