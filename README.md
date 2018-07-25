@@ -1,24 +1,24 @@
-# README
+# The Hacking Pinterest - projet THP 25 juillet 2018
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Après avoir cloné le repo
 
-Things you may want to cover:
+Pour créer la BDD, faire :
+- `bundle install`
+- `rails db:migrate`
+- `rails db:seed`
 
-* Ruby version
+## Le contenu
 
-* System dependencies
+A été créée une base de données, avec une application rails, en utilisant la gem ActiveRecord.
 
-* Configuration
+### Le projet
 
-* Database creation
+Un site concurrent de Pinterest
 
-* Database initialization
+- Tous les utilisateurs peuvent créer des "pins"
+- Chaque pin contient une URL d'une image sur le net
+- Les utilisateurs peuvent commenter les pins mais ne peuvent pas commenter les commentaires
 
-* How to run the test suite
+## La team
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Ce programme est made in Strasbourg, by Soraya FRUCTUOSO, Samaneh VAEZI et Hugo PAYET avec amour ! Bonne correction les amis :kissing_heart:
